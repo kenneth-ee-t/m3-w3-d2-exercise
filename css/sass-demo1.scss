@@ -1,0 +1,27 @@
+// Add variables here
+$color-primary: #3046c5;
+$color-pale:#cec8ff;
+$body-font:"open sans", sans-serif;
+$header-font:"lobster", cursive;
+
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header h2 {
+    color: $color-pale;
+}
+
+.site-footer {
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}
